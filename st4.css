@@ -1,0 +1,207 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    background: #F8F8FF;
+    min-height: 0;
+    overflow: auto;
+    border-bottom: 1px solid;
+}
+
+.nav .left {
+    float: left;
+    margin-left: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav .left li {
+    float: left;
+    line-height: 0px;
+}
+
+a {
+    display: block;
+    padding: 10px 18px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #191919;
+    ;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav .left a {
+    background: #F8F8FF;
+}
+
+.navbar-brand a:hover {
+    background-color: #87CEFA;
+}
+
+.profile {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    padding-top: 45px;
+    background-color: #F8F8FF;
+}
+
+.prof {
+    background-color: #E6E6FA;
+    width: 430px;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+    -webkit-box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+    -moz-box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+}
+
+.ft {
+    font-size: 22px;
+    width: 435px;
+}
+
+.mp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.input {
+    text-align: justify;
+    width: 160px;
+    border: 1px solid;
+    height: 20px;
+}
+
+.input1 {
+    width: 140px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.input2 {
+    text-align: center;
+    width: 290px;
+    border: 1px solid;
+    height: 30px;
+}
+
+.input3 {
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    font-size: 13px;
+    padding-right: 175px;
+    padding-top: 3px;
+}
+
+.btn {
+    border: 1px solid;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #191919;
+    color: white;
+}
+
+.ifn {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.iln {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.jk {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.tlp {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.em {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.ad {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.rtw {
+    text-align: center;
+    width: 30px;
+    border: 1px solid;
+}
+
+.kc {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.kl {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.kd {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.job {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.ct {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.form-btn {
+    background: #b3defc;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor: pointer;
+    width: 80px;
+    border: 1px solid;
+    font-family: 'Cambria';
+}
+
+.form-btn:hover {
+    background: black;
+    color: #fff;
+    width: 80px;
+    border: 1px solid;
+}
+
+.logout {
+    display: flex;
+    justify-content: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
